@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.header-section {
+    width: 100%;
+    height: auto;
+}
+
+.header-navigation {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.header-logo img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    box-shadow: 0px 0px 10px #eee;
+}
+
+.header-logo h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+.header-nav__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav__item {
+    margin-right: 30px; 
+}
+
+.header-nav__link {
+    color: #eee;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.header-nav__link:hover {
+    color: orangered;
+}
+/* header-navigation end */
+
+.header-main {
+    width: 100%;
+    height: 550px;
+    background: url(../img/qushlar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-welcome {
+    width: 30%;
+    height: auto;
+    padding: 30px;
+    border:2px solid #eee;
+   background-image: linear-gradient(to right bottom, rgba(212, 19, 100, 0.7),rgba(42, 233, 128, 0.6) );
+    text-align: center;   
+}
+
+.main-welcome__info {
+    text-transform: capitalize;
+    color: rgb(6, 73, 85);
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.main-welcome a {
+    margin-top: 10px;
+    color: rgb(139, 46, 85);
+    font-weight: 600;
+    font-style: 2rem;
+}
+
+.logo-line {
+    width: 100%;
+    height: 200px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo-line span, img {
+    width: 45%;
+    /* margin-right: 3%; */
+}
+
+.first, .second{
+    height: 3px;
+    background-color: olive;
+}
+.logo-line img {
+    width: 80px;
+    height: 50px;
+    border-radius: 45%;
+}
+/* travel-type */
+
+.travel-type {
+    width: 100%;
+    height: 300px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.travel-type__subtitle {
+    color: #222;
+    letter-spacing: 2px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.travel-type__title {
+    font-style: 24px;font-weight: 500;
+    color: darkblue;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.btn {
+    width: 20%;
+    padding: 17px 15px ;
+    background-image: linear-gradient(to right, orange, orangered, orange );
+    background-size: 200% auto;
+    border: none;
+    color: #fff;
+    font-size: 12pt;
+    transition: all 1s;
+}
+.btn:hover {
+    background-position: right center;
+}
+
+.travel-cards {
+   padding-top: 50px;
+    width: 100%;
+    display: flex;
+
+}
+
+.travel-cards > div {
+    width: 25%;
+    height: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 0.5%; */
+}
+
+.travel-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.travel-card__title {
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+}
+
+.travel-card__text {
+    font-size: 14pt;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.one {
+    background-color: #f2f2f2;
+}
+
+.two {
+    background-color: rgb(231, 230, 230)
+}
+
+.three {
+    background-color: rgb(196, 196, 196);
+}
+
+.four {
+    background-color: rgb(184, 184, 184);
+}
+
+.travel-images {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.images-heading {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bgc-img {
+    width: 100%; 
+    height: 500px;   
+}
+
+.footer-section {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background-color: #222;
+    position: relative;
+    top:-5px;
+}
+
+.footer-title {
+    font-size: 15pt;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.footer-phone a {
+    color: #FFF;
+}
+
+.footer-form {
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-form input, .footer-btn {
+    padding: 10px;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+
+}
+
+.footer-btn {
+    border-radius: 20px;
+    border:none;
+    color: #222;
+    background-color: rgb(204, 201, 48);
+}
+
+.footer-btn:hover {
+    background-color: rgb(224, 223, 162);
+}
+
+
+
+
+
+
